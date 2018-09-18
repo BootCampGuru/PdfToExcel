@@ -1,0 +1,10 @@
+C:\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csprojAssemblyReference.cache
+C:\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csproj.CoreCompileInputs.cache
+C:\PdfToExcel\C#\bin\Debug\SampleConvert.exe
+C:\PdfToExcel\C#\bin\Debug\SampleConvert.pdb
+C:\PdfToExcel\C#\bin\Debug\SautinSoft.PdfFocus.dll
+C:\PdfToExcel\C#\bin\Debug\UseOffice.dll
+C:\PdfToExcel\C#\bin\Debug\SautinSoft.PdfFocus.xml
+C:\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csproj.CopyComplete
+C:\PdfToExcel\C#\obj\Debug\SampleConvert.exe
+C:\PdfToExcel\C#\obj\Debug\SampleConvert.pdb
