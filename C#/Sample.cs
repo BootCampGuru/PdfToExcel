@@ -1,5 +1,7 @@
 using System;
+using System.Data;
 using System.IO;
+using Excel;
 using SautinSoft;
 
 namespace Sample
@@ -31,9 +33,28 @@ namespace Sample
                 //Open a produced Excel workbook
                 if (result==0)
                 {
-                    System.Diagnostics.Process.Start(pathToExcel);
+                  //  System.Diagnostics.Process.Start(pathToExcel);
                 }
             }
+
+            ConvertToText(@"C:\pdf\test.xls");
+        }
+
+        private static void ConvertToText(string filePath)
+        {
+            FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read);
+
+            // Reading from a binary Excel file ('97-2003 format; *.xls)
+            //IExcelDataReader excelReader = ExcelReaderFactory.CreateBinaryReader(stream);
+
+            // Reading from a OpenXml Excel file (2007 format; *.xlsx)
+             IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);
+
+            // DataSet - The result of each spreadsheet will be created in the result.Tables
+            DataSet result = excelReader.AsDataSet();
+
+            // Free resources (IExcelDataReader is IDisposable)
+            excelReader.Close();
         }
     }
 }
