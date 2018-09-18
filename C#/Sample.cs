@@ -2,6 +2,7 @@ using System;
 using System.Data;
 using System.IO;
 using Excel;
+using SampleConvert.Helper;
 using SautinSoft;
 
 namespace Sample
@@ -37,7 +38,10 @@ namespace Sample
                 }
             }
 
-            ConvertToText(@"C:\pdf\test.xls");
+            //  ConvertToText(@"C:\pdf\test.xls");
+            var excelFilePath = @"C:\pdf\test.xls";
+            string output = Path.ChangeExtension(excelFilePath, ".csv");
+            ExcelFileHelper.SaveAsCsv(@"C:\pdf\test.xls", output);
         }
 
         private static void ConvertToText(string filePath)

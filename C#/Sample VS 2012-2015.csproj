@@ -101,6 +101,12 @@
     <Reference Include="Excel">
       <HintPath>..\ExcelDataReader_2.0.1.0\CF\Excel.dll</HintPath>
     </Reference>
+    <Reference Include="ExcelDataReader, Version=3.4.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.3.4.1\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.4.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.DataSet.3.4.1\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\ExcelDataReader_2.0.1.0\CF\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -114,20 +120,16 @@
       <Name>System.Data</Name>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
-    </Reference>
-    <Reference Include="Tabular, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Tabular.dll.2.2.1\lib\net40\Tabular.dll</HintPath>
-    </Reference>
-    <Reference Include="Tabular.Excel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Tabular.Excel.dll.2.2.1\lib\net40\Tabular.Excel.dll</HintPath>
     </Reference>
     <Reference Include="UseOffice, Version=4.7.5.13, Culture=neutral, PublicKeyToken=f77041e5caa5fc2f, processorArchitecture=MSIL">
       <HintPath>packages\sautinsoft.useoffice.4.7.5.13\lib\net45\UseOffice.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\ExcelFileHelper.cs" />
     <Compile Include="Sample.cs">
       <SubType>Code</SubType>
     </Compile>

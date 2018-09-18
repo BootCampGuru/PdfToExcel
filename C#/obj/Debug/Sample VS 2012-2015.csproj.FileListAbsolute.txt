@@ -8,19 +8,21 @@ C:\PdfToExcel\C#\bin\Debug\SautinSoft.PdfFocus.xml
 C:\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csproj.CopyComplete
 C:\PdfToExcel\C#\obj\Debug\SampleConvert.exe
 C:\PdfToExcel\C#\obj\Debug\SampleConvert.pdb
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SampleConvert.exe.config
 C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SampleConvert.exe
 C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SampleConvert.pdb
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\EPPlus.dll
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\Excel.dll
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ExcelDataReader.DataSet.dll
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ExcelDataReader.dll
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ICSharpCode.SharpZipLib.dll
 C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SautinSoft.PdfFocus.dll
 C:\PdfToExcel\PdfToExcel\C#\bin\Debug\UseOffice.dll
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\EPPlus.xml
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ExcelDataReader.xml
+C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ExcelDataReader.DataSet.xml
 C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SautinSoft.PdfFocus.xml
 C:\PdfToExcel\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csproj.CoreCompileInputs.cache
 C:\PdfToExcel\PdfToExcel\C#\obj\Debug\Sample VS 2012-2015.csproj.CopyComplete
 C:\PdfToExcel\PdfToExcel\C#\obj\Debug\SampleConvert.exe
 C:\PdfToExcel\PdfToExcel\C#\obj\Debug\SampleConvert.pdb
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\SampleConvert.exe.config
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\EPPlus.dll
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\Excel.dll
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\Tabular.dll
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\EPPlus.xml
-C:\PdfToExcel\PdfToExcel\C#\bin\Debug\Tabular.xml
